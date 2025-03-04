@@ -1,0 +1,30 @@
+{
+  "name": "js_handbook",
+  "version": "1.0.0",
+  "description": "Handbook for javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --open=src/index.html",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "prepare": "husky install",
+    "build": "gulp build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Sultanova Anahit",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "gh-pages": "^6.3.0",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3"
+  }
+}
