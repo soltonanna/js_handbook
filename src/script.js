@@ -2,6 +2,7 @@
   $(document).ready(() => {
     // Load sections dynamically
     $('#cover-container').load('sections/section-cover.html');
+    $('#event-loop-container').load('sections/section-event-loop.html');
     $('#arrays-container').load('sections/section-arrays.html');
     $('#functions-container').load('sections/section-functions.html');
     $('#objects-container').load('sections/section-objects.html');
